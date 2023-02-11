@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Order details</h1>
+    <table border="3" border-collapse: collapse cellpadding="5" style="text-align: center">
+        <tr>
+            <th>Order id</th>
+            <th>Order date</th>
+            <th>Customer id</th>
+            <th>Total price</th>
+            <th>Cost price</th>
+        </tr>
+        <tr data-th-each="orderData : ${listOfOrderData}">
+            <td data-th-text="${orderData.orderId}"></td>
+            <td data-th-text="${orderData.orderDate}"></td>
+            <td data-th-text="${orderData.customerId}"></td>
+            <td data-th-text="${orderData.totalPrice}"></td>
+            <td data-th-text="${orderData.costPrice}"></td>
+        </tr>
+    </table>
+</body>
+</html>
