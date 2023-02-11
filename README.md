@@ -37,7 +37,7 @@ State workshop objectives is to insert a record into a table with foreign key co
 
 4. Create database and tables with:
 
-    [Northwind Database](src/main/java/sg/edu/nus/iss/app/workshop23/mywind_database)
+    [Northwind Database (src/main/java/sg/edu/nus/iss/app/workshop23/mywind_database)](src/main/java/sg/edu/nus/iss/app/workshop23/mywind_database)
 
     [DDL - create tables](src/main/java/sg/edu/nus/iss/app/workshop23/mywind_database/northwind.sql)
 
